@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Font';
+    font-weight: 400;
+    src: url("../src/font.ttf") format("truetype");
+}
+body{
+    font-family: 'Font'; 
+    overflow: auto;
+}
+
+/* --------------------[ menu start ]------------------------- */
+.menu {
+    background-color: rgb(8, 13, 16);
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    color: #f5f5f5;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.menu li a:hover {
+    border-color: #f5f5f5;
+}
+/* --------------------[ photos start ]------------------------- */
+.main h4{
+    color: gray;
+    text-align: right;
+    font-weight: bold;
+}
+.main p{
+    color: blue;
+    text-align: right;
+}
+/* --------------------[ main start ]------------------------- */
+.photos {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.photos img {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    margin: 2px;
+    object-fit: cover;
+    object-position: top;
+}
+/* --------------------[ footer start ]------------------------- */
+.footer {
+    background-color: gray;
+    /*text-align: center;*/
+}
+.footer p{
+    padding: 10px;
+    font-size: 13px;
+}
